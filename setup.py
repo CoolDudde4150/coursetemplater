@@ -3,8 +3,13 @@ import setuptools
 
 setuptools.setup(
     name="coursetemplater",
-    version="0.0.1",
     packages=setuptools.find_packages(),
+    version="0.1",
+    licence="MIT",
+    description="Creates a directory layout for a subject/course file",
+    author="CoolDudde4150",
+    url="https://github.com/CoolDudde4150/coursetemplater",
+    download_url="https://github.com/CoolDudde4150/coursetemplater/archive/v0.1.tar.gz",
     install_requires=[
         "mdtemplater"
     ],
